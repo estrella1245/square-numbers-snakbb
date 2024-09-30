@@ -13,7 +13,12 @@ const numbers = prompt(
  * For example: if numbers = [1, 2, 3], the result should be [1,
  * 4, 9]
  */
-const result = undefined;
+const result = new Array();
+
+for (let e of numbers)
+{
+  result.push(Math.pow(e,2));
+}
 
 console.log(result);
 
